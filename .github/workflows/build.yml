@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # HolaSonarcloud
+          fetch-depth: 0  # HolaSonar
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
